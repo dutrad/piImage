@@ -1,7 +1,7 @@
 DESCRIPTION = "Fetch and install Temp Monitor"
 LICENSE = "CLOSED"
 
-DEPENDS = "systemd"
+#DEPENDS = "systemd"
 RDEPENDS:${PN} += "python3 python3-pyserial"
 
 S = "${WORKDIR}/git"
